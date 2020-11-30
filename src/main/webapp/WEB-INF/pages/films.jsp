@@ -30,12 +30,12 @@
                     </c:if>
                 </td>
                 <td>
-                    <a href="/edit/${film.id}">
+                    <a href="<c:url value="/edit/${film.id}"/>">
                         <span class="icon icon-edit"></span>
                     </a>
                 </td>
                 <td class="right-side">
-                    <a href="/delete/${film.id}">
+                    <a href="<c:url value="/delete/${film.id}"/>">
                         <span class="icon icon-delete"></span>
                     </a>
                 </td>

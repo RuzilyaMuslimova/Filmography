@@ -9,7 +9,7 @@ import testgroup.filmography.service.FilmService;
 
 import java.util.List;
 
-@Controller
+@RestController
 public class FilmController {
     private int page;
 
